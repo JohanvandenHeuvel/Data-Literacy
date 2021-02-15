@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{tikz, pgfplots}
+\pgfplotsset{compat=newest}
+
+\newlength{\figheight}
+\newlength{\figwidth}
+
+\begin{document}
+
+    \begin{figure}
+        \centering
+        \setlength{\figwidth}{.9\textwidth}
+        \setlength{\figheight}{.9\textheight}
+        \input{Data.tex}
+    \end{figure}
+
+    \begin{figure}
+        \centering
+        \setlength{\figwidth}{.9\textwidth}
+        \setlength{\figheight}{.9\textheight}
+        \input{Food.tex}
+    \end{figure}
+
+\end{document}
